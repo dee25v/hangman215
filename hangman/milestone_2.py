@@ -25,3 +25,18 @@ word_list = ["Apple", "Banana", "Mango", "Orange", "Grape"]
 
 #Step 3: Print out the newly created list to the standard output (screen)
 print("My favourite fruits are:" , word_list)
+
+# Step 1: Create an if statement that checks if the length of the input is equal to 1
+# and the input is alphabetical
+import string
+
+while True:
+    guess = input("Enter a single letter: ")
+    if len(guess) == 1 and guess.isalpha():
+        # Step 2: In the body of the if statement, print a message that says "Good guess!"
+        print("Good guess!")
+        break
+    else:
+        # Step 3: Create an else block that prints "Oops! That is not a valid input."
+        # if the preceding conditions are not met
+        print("Oops! That is not a valid input.")
