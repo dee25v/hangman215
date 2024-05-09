@@ -5,4 +5,3 @@ word_list = ["Apple", "Banana", "Mango", "Orange", "Grape"]
 
 #Step 3: Print out the newly created list to the standard output (screen)
 print("My favourite fruits are:" , word_list)
-
