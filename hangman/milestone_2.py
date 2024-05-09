@@ -40,3 +40,31 @@ while True:
         # Step 3: Create an else block that prints "Oops! That is not a valid input."
         # if the preceding conditions are not met
         print("Oops! That is not a valid input.")
+
+# Meaningful Naming: Use descriptive names for methods and variables to enhance code readability
+# For example, create_list_of_website_links() over links() and use for element in web_element_list instead of for i in list
+
+def get_user_input():
+    """
+    Gets user input and validates that it is a single alphabetical character.
+    """
+    while True:
+        guess = input("Enter a single letter: ")
+        if len(guess) == 1 and guess.isalpha():
+            return guess
+        else:
+            print("Oops! That is not a valid input.")
+
+# Eliminate Code Duplication: Identify repeated code blocks and refactor them into separate methods or functions
+# This promotes code reusability and reduces the likelihood of bugs
+
+def print_good_guess_message(guess):
+    """
+    Prints a message that says "Good guess!" if the user's input is a single alphabetical character.
+    """
+    print("Good guess!")
+
+# Main program
+
+guess = get_user_input()
+print_good_guess_message(guess)
