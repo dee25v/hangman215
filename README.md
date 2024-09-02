@@ -8,7 +8,7 @@ The aim of this project is to demonstrate a working advanced knowledge of the Py
 
 
 ### Screenshots of Code Snippets
-![Hangman Init](![hangman_init_code](https://github.com/user-attachments/assets/d37a5907-2ade-4a83-892c-e668dd68613a))
+![hangman_init_code](https://github.com/user-attachments/assets/d37a5907-2ade-4a83-892c-e668dd68613a)
 
 ![Check Guess](/check_guess_code.png)
 
