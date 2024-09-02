@@ -10,11 +10,11 @@ The aim of this project is to demonstrate a working advanced knowledge of the Py
 ### Screenshots of Code Snippets
 ![hangman_init_code](https://github.com/user-attachments/assets/d37a5907-2ade-4a83-892c-e668dd68613a)
 
-![Check Guess](/check_guess_code.png)
+![check_guess_code](https://github.com/user-attachments/assets/25f4cf0b-4cb5-4c14-9b7c-a2c34de3b71d)
 
-![Ask For Input](/ask_for_input_code.png)
+![ask_for_input_code](https://github.com/user-attachments/assets/04bdfc81-df63-48be-828a-baee79beccee)
 
-![Play Gamet](/play_game_code.png)
+![play_game_code](https://github.com/user-attachments/assets/219f2622-0031-4fdb-a73f-cdd25894ef01)
 
 ## Installation Instructions
 Download the file named 'hangman.py' to a folder named in your computer.
